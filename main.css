@@ -1,0 +1,23 @@
+html,
+
+#homepage-header {
+background-color: #f1d9d3;
+}
+
+li {
+    font-family: 'Merriweather', serif;
+    list-style-type: none;
+    margin: 0 2vw;
+    color: #9abe9c;
+}
+
+nav{
+    width: 100vw;
+    background-color: #D6EFFF;
+  }
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }

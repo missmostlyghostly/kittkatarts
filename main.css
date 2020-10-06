@@ -1,23 +1,48 @@
 html,
 
-#homepage-header {
-background-color: #f1d9d3;
+#navigation /* The Navbar */{
+  width: 100vw;
+  background-color: #c8d4c4;
+  vertical-align: middle;
+  position: relative;
+  height: 100px;
 }
-
-li {
-    font-family: 'Merriweather', serif;
-    list-style-type: none;
+#navitem /* Navbar items */{
     margin: 0 2vw;
-    color: #9abe9c;
+    font-family: 'Merriweather', serif;
+    line-height: 100px;
 }
-
-nav{
-    width: 100vw;
-    background-color: #D6EFFF;
-  }
-
-ul{
+#navflavor /* Navbar Organization */{
     margin: 0;
     padding: 0;
     display: flex;
+    color: #9abe9c;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+  } 
+  body /* Main Page Colors and Text */{
+    margin: 0;
+    padding: 0;
+    background: #c1c2ca;
+    font-family: 'Merriweather', serif;
   }
+  #bannertext /* Opening Text for Beginning of Page*/{
+    text-align: center;
+    color: #412958;
+  }
+#bannerimghome /*Display image - Homepage*/ {
+  width: 100%;
+  height: auto;
+}
+#collage .column {
+  flex: 50%;
+  padding: 0 4px;
+  align-content: center;
+}
+#collage .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 400px;
+  width: 400px;
+}

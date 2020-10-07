@@ -35,12 +35,12 @@ html,
   width: 100%;
   height: auto;
 }
-#collage .column {
+#collage .column /* Photo collage first page*/{
   flex: 50%;
   padding: 0 4px;
   align-content: center;
 }
-#collage .column img {
+#collage .column img /* Photo collage first page*/{
   margin-top: 8px;
   vertical-align: middle;
   height: 400px;

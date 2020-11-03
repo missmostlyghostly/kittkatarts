@@ -1,11 +1,11 @@
 html,
-
+/* General */
 #navigation /* The Navbar */{
-  width: 100vw;
-  background-color: #c8d4c4;
+  width: 98.95vw;
+  background-color: #cad6a1;
   vertical-align: middle;
   position: relative;
-  height: 100px;
+  height: 170px;
 }
 #navitem /* Navbar items */{
     margin: 0 2vw;
@@ -21,10 +21,13 @@ html,
     font-weight: bold;
     text-align: center;
   } 
+
+
+  /* Homepage */
   body /* Main Page Colors and Text */{
     margin: 0;
     padding: 0;
-    background: #c1c2ca;
+    background: #f9efd3;
     font-family: 'Merriweather', serif;
   }
   #bannertext /* Opening Text for Beginning of Page*/{
@@ -33,16 +36,27 @@ html,
   }
 #bannerimghome /*Display image - Homepage*/ {
   width: 100%;
-  height: auto;
+  height: 450px;
 }
 #collage .column /* Photo collage first page*/{
   flex: 50%;
   padding: 0 4px;
   align-content: center;
+  justify-items: center;
 }
-#collage .column img /* Photo collage first page*/{
+#center-collage /*Centering div for collage*/{
+  display:flex; 
+  align-items: center; 
+  justify-content: center; 
+
+}
+#collage .column img /* Photo collage first page images*/{
   margin-top: 8px;
   vertical-align: middle;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
 }
+
+
+/* Art */
+

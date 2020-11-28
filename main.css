@@ -1,5 +1,6 @@
 html,
 /* General */
+a { color: inherit; } /*Quick fix to make links grab the color I want them to be */
 #navigation /* The Navbar */{
   width: 98.95vw;
   background-color: #cad6a1;

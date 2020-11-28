@@ -25,7 +25,7 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
   } 
 
 
-  /* Homepage */
+  /* H O M E P A G E */
   body /* Main Page Colors and Text */{
     margin: 0;
     padding: 0;
@@ -36,29 +36,21 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
     text-align: center;
     color: #412958;
   }
-#bannerimghome /*Display image - Homepage*/ {
-  width: 100%;
-  height: 450px;
-}
 #collage .column /* Photo collage first page*/{
-  flex: 50%;
   padding: 0 4px;
-  align-content: center;
   justify-items: center;
 }
 #center-collage /*Centering div for collage*/{
   display:flex; 
-  align-items: center; 
   justify-content: center; 
-
 }
 #collage .column img /* Photo collage first page images*/{
-  margin-top: 8px;
-  vertical-align: middle;
   height: 200px;
   width: 200px;
 }
+#collage .column img:hover {
+  transform: scale(1.5); /* Animation sizing */
+}
 
-
-/* Art */
+/* A R T */
 

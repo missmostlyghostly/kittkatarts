@@ -11,6 +11,7 @@ html,
     margin: 0 2vw;
     font-family: 'Merriweather', serif;
     line-height: 100px;
+    color: black;
 }
 #navflavor /* Navbar Organization */{
     margin: 0;

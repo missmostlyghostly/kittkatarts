@@ -54,3 +54,10 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
 
 /* A R T */
 
+/* A B O U T */
+#aboutmetext {
+  font-weight: bold;
+  text-align: center;
+  color: #412958;
+  margin: 20px;
+}

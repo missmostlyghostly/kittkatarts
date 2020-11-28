@@ -6,7 +6,7 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
   background-color: #cad6a1;
   vertical-align: middle;
   position: relative;
-  height: 170px;
+  height: 120px;
 }
 #navitem /* Navbar items */{
     margin: 0 2vw;

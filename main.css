@@ -23,7 +23,13 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
     font-weight: bold;
     text-align: center;
   } 
+  a:link {
 
+
+    text-decoration: none;
+  
+  
+  }
 
   /* H O M E P A G E */
   body /* Main Page Colors and Text */{
@@ -60,4 +66,12 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
   text-align: center;
   color: #412958;
   margin: 20px;
+}
+
+/* S O C I A L M E D I A */
+
+#socialmediatext {
+color: #412958;
+font-weight: bold;
+padding: 20px;
 }

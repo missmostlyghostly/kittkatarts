@@ -101,4 +101,7 @@ text-align: center;
 #navigation /* The Navbar */{
   height: 100px;
 }
+#collage .column /* Photo collage first page*/{
+  padding: 0 0;
+}
 }

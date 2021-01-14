@@ -95,8 +95,8 @@ text-align: center;
   margin-top:20px;
 }
 #collage .column img /* Photo collage first page images*/{
-  height: 360px;
-  width: 360px;
+  height: 100%;
+  width: 100%;
 }
 #navigation /* The Navbar */{
   height: 100px;

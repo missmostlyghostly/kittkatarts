@@ -13,6 +13,12 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
     font-family: 'Merriweather', serif;
     line-height: 100px;
     color: black;
+    font-size: 20px;
+}
+#navitem img /* Navbar Image */{
+  width:100px;
+  height:100px;
+  margin-top:none;
 }
 #navflavor /* Navbar Organization */{
     margin: 0;
@@ -49,6 +55,7 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
 #collage .column img /* Photo collage first page images*/{
   height: 200px;
   width: 200px;
+  padding: 0px, 0px;
 }
 #collage .column img:hover {
   transform: scale(1.8); /* Animation sizing */
@@ -75,6 +82,15 @@ padding: 20px;
 /*Galaxy S5 */
 @media only screen and (min-width:300px) and (max-width:400px) {
   #navitem /* Navbar items */{
-    font-size: 30px;
+    font-size: 15px;
+}
+#navitem img /* Navbar Image */{
+  width:50px;
+  height:50px;
+  margin-top:20px;
+}
+#collage .column img /* Photo collage first page images*/{
+  height: 360px;
+  width: 360px;
 }
 }

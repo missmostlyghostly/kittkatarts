@@ -81,6 +81,7 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
 color: #412958;
 font-weight: bold;
 padding: 20px;
+text-align: center;
 }
 
 /*Galaxy S5 */

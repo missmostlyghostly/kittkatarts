@@ -12,7 +12,7 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
     margin: 0 2vw;
     font-family: 'Merriweather', serif;
     line-height: 100px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #navflavor /* Navbar Organization */{
     margin: 0;
@@ -24,11 +24,7 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
     text-align: center;
   } 
   a:link {
-
-
     text-decoration: none;
-  
-  
   }
 
   /* H O M E P A G E */
@@ -74,4 +70,14 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
 color: #412958;
 font-weight: bold;
 padding: 20px;
+}
+
+/*Galaxy S5 */
+@media only screen and (min-width:300px) and (max-width:400px) {
+  #navitem /* Navbar items */{
+    margin: 0 2vw;
+    font-family: 'Merriweather', serif;
+    line-height: 100px;
+    color: rgb(255, 255, 255);
+}
 }

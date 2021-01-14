@@ -12,7 +12,7 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
     margin: 0 2vw;
     font-family: 'Merriweather', serif;
     line-height: 100px;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 #navflavor /* Navbar Organization */{
     margin: 0;
@@ -75,9 +75,6 @@ padding: 20px;
 /*Galaxy S5 */
 @media only screen and (min-width:300px) and (max-width:400px) {
   #navitem /* Navbar items */{
-    margin: 0 2vw;
-    font-family: 'Merriweather', serif;
-    line-height: 100px;
-    color: rgb(255, 255, 255);
+    font-size: 30px;
 }
 }

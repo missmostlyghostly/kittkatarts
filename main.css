@@ -70,6 +70,10 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
   color: #412958;
   margin: 20px;
 }
+#aboutmeimg {
+  height:300px; 
+  width:300px;
+}
 
 /* S O C I A L M E D I A */
 

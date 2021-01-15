@@ -32,7 +32,13 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
   a:link {
     text-decoration: none;
   }
-
+  .center {
+    display: initial;
+    margin: 0px auto;
+  }
+  #mobilehide {
+    display:initial;
+  }
   /* H O M E P A G E */
   body /* Main Page Colors and Text */{
     margin: 0;
@@ -44,24 +50,16 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
     text-align: center;
     color: #412958;
   }
-#collage .column /* Photo collage first page*/{
-  padding: 0 4px;
-  justify-items: center;
-}
-#center-collage /*Centering div for collage*/{
-  display:flex; 
-  justify-content: center; 
-}
-#collage .column img /* Photo collage first page images*/{
-  height: 200px;
-  width: 200px;
-  padding: 0px, 0px;
-}
-#collage .column img:hover {
-  transform: scale(1.8); /* Animation sizing */
-}
 
 /* A R T */
+  #artcollage img {
+    height:400px;
+    width:auto;
+    align-content: center;
+  }
+  #artcollage img:hover {
+    transform: scale(1.5); /* Animation sizing */
+  }
 
 /* A B O U T */
 #aboutmetext {
@@ -94,14 +92,20 @@ text-align: center;
   height:50px;
   margin-top:20px;
 }
-#collage .column img /* Photo collage first page images*/{
-  height: 100%;
-  width: 100%;
-}
 #navigation /* The Navbar */{
   height: 100px;
 }
-#collage .column /* Photo collage first page*/{
-  padding: 0 0;
+#artcollage img {
+  height:400px;
+  width:auto;
+  align-content: center;
+  margin: 0px, 20px;
+}
+.center {
+  display: block;
+  margin: 10px auto;
+}
+#mobilehide {
+  display:none;
 }
 }

@@ -33,7 +33,7 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
     text-decoration: none;
   }
   .center {
-    display: initial;
+    display: inline-grid;
     margin: 0px auto;
   }
   #mobilehide {
@@ -52,10 +52,13 @@ a { color: inherit; } /*Quick fix to make links grab the color I want them to be
   }
 
 /* A R T */
+  #artcollage {
+    margin: auto;
+    width:80%;
+  }
   #artcollage img {
     height:400px;
     width:auto;
-    align-content: center;
   }
   #artcollage img:hover {
     transform: scale(1.5); /* Animation sizing */
